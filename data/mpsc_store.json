@@ -1,0 +1,1472 @@
+{
+  "users": [
+    {
+      "id": "u_admin_001",
+      "email": "admin@mpsc.gov",
+      "password_hash": "0c93fe8f3c446d68b9f61d1bb80f87dcaa0bc7b2188630563e77b3314cfd886d",
+      "full_name": "MPSC Platform Administrator",
+      "phone": "+91 9820011223",
+      "role": "admin",
+      "created_at": "2026-11-12T08:27:16.965Z"
+    },
+    {
+      "id": "u_student_001",
+      "email": "student@mpsc.gov",
+      "password_hash": "8a80d88f78873656fb33c71331087f4c55e18175be4fbc7fd1f1e85968273413",
+      "full_name": "Aniket Deshmukh",
+      "phone": "+91 9890044556",
+      "role": "student",
+      "created_at": "2026-11-12T08:27:16.965Z"
+    }
+  ],
+  "exams": [
+    {
+      "id": "exam_rajyaseva",
+      "code": "RAJYASEVA",
+      "title_en": "MPSC State Services (Rajyaseva)",
+      "title_mr": "महाराष्ट्र नागरी सेवा राजपत्रित (राज्यसेवा)",
+      "description_en": "Class 1 & Class 2 Gazetted posts including Deputy Collector, DySP, Tehsildar, etc.",
+      "description_mr": "उपजिल्हाधिकारी, डीवायएसपी, तहसीलदार आदी वर्ग-१ व वर्ग-२ पदांसाठीची परीक्षा.",
+      "is_active": true
+    },
+    {
+      "id": "exam_combine_b",
+      "code": "COMBINE_B",
+      "title_en": "MPSC Combine Group B (Non-Gazetted)",
+      "title_mr": "महाराष्ट्र दुय्यम सेवा गट-ब (अराजपत्रित संयुक्त)",
+      "description_en": "Police Sub Inspector (PSI), State Tax Inspector (STI), Assistant Section Officer (ASO).",
+      "description_mr": "पोलीस उपनिरीक्षक (PSI), राज्य कर निरीक्षक (STI), सहाय्यक कक्ष अधिकारी (ASO).",
+      "is_active": true
+    },
+    {
+      "id": "exam_combine_c",
+      "code": "COMBINE_C",
+      "title_en": "MPSC Combine Group C",
+      "title_mr": "महाराष्ट्र दुय्यम सेवा गट-क (अराजपत्रित संयुक्त)",
+      "description_en": "Tax Assistant, Clerk-Typist, Excise Sub Inspector, Industry Inspector.",
+      "description_mr": "कर सहाय्यक, लिपिक-टंकलेखक, दुय्यम निरीक्षक उत्पादन शुल्क.",
+      "is_active": true
+    }
+  ],
+  "subjects": [
+    {
+      "id": "sub_polity",
+      "exam_id": "exam_rajyaseva",
+      "code": "POLITY",
+      "name_en": "Indian Polity & Governance",
+      "name_mr": "भारतीय राज्यघटना व शासन",
+      "description_en": "Constitution, Fundamental Rights, Parliament, Panchayati Raj in Maharashtra",
+      "description_mr": "राज्यघटना, मूलभूत हक्क, संसद आणि महाराष्ट्रातील पंचायत राज"
+    },
+    {
+      "id": "sub_geography",
+      "exam_id": "exam_rajyaseva",
+      "code": "GEOGRAPHY",
+      "name_en": "Geography of Maharashtra & India",
+      "name_mr": "महाराष्ट्र व भारताचा भूगोल",
+      "description_en": "Physiography, Rivers (Godavari, Krishna, Tapi), Climate, Agriculture & Minerals",
+      "description_mr": "प्राकृतिक रचना, नद्या (गोदावरी, कृष्णा, तापी), हवामान, शेती व खनिजे"
+    },
+    {
+      "id": "sub_history",
+      "exam_id": "exam_rajyaseva",
+      "code": "HISTORY",
+      "name_en": "History of Modern India & Maharashtra",
+      "name_mr": "आधुनिक भारताचा व महाराष्ट्राचा इतिहास",
+      "description_en": "1857 Revolt, Social Reformers (Phule, Ambedkar, Shahu Maharaj), Freedom Movement",
+      "description_mr": "१८५७ चा उठाव, समाजसुधारक (फुले, आंबेडकर, शाहू महाराज), स्वातंत्र्य लढा"
+    },
+    {
+      "id": "sub_economy",
+      "exam_id": "exam_rajyaseva",
+      "code": "ECONOMY",
+      "name_en": "Indian & Maharashtra Economy",
+      "name_mr": "भारतीय व महाराष्ट्राची अर्थव्यवस्था",
+      "description_en": "National Income, NITI Aayog, GST, Inflation, Maharashtra Budget",
+      "description_mr": "राष्ट्रीय उत्पन्न, नीती आयोग, जीएसटी, चलनवाढ, महाराष्ट्राचा अर्थसंकल्प"
+    },
+    {
+      "id": "sub_science",
+      "exam_id": "exam_rajyaseva",
+      "code": "SCIENCE",
+      "name_en": "General Science & Technology",
+      "name_mr": "सामान्य विज्ञान व तंत्रज्ञान",
+      "description_en": "Physics, Chemistry, Biology, Environmental Ecology, ISRO Space Missions",
+      "description_mr": "भौतिकशास्त्र, रसायनशास्त्र, जीवशास्त्र, पर्यावरण आणि इस्रो मोहिमा"
+    },
+    {
+      "id": "sub_marathi",
+      "exam_id": "exam_combine_b",
+      "code": "MARATHI",
+      "name_en": "Marathi Grammar & Language",
+      "name_mr": "मराठी व्याकरण व भाषा",
+      "description_en": "Vyakaran, Sandhi, Samas, Prayog, Alankar, Shuddhalekhan",
+      "description_mr": "संधी, समास, प्रयोग, अलंकार, म्हणी, वाक्प्रचार व शुद्धलेखन"
+    },
+    {
+      "id": "sub_csat",
+      "exam_id": "exam_rajyaseva",
+      "code": "CSAT",
+      "name_en": "Mental Ability & Quantitative Aptitude",
+      "name_mr": "बुद्धिमत्ता चाचणी व अंकगणित",
+      "description_en": "Logical Reasoning, Data Interpretation, Arithmetic, Decision Making",
+      "description_mr": "तर्कक्षमता, संख्या मालिका, विधाने व निष्कर्ष, अंकगणित"
+    }
+  ],
+  "topics": [
+    {
+      "id": "top_const_amend",
+      "subject_id": "sub_polity",
+      "name_en": "Constitutional Amendments & Panchayati Raj",
+      "name_mr": "घटनादुरुस्त्या व पंचायत राज"
+    },
+    {
+      "id": "top_mh_rivers",
+      "subject_id": "sub_geography",
+      "name_en": "Drainage System of Maharashtra",
+      "name_mr": "महाराष्ट्राची जलप्रणाली व नद्या"
+    },
+    {
+      "id": "top_mh_reformers",
+      "subject_id": "sub_history",
+      "name_en": "Social Reform Movement in Maharashtra",
+      "name_mr": "महाराष्ट्रातील समाजसुधारणा चळवळ"
+    },
+    {
+      "id": "top_samas",
+      "subject_id": "sub_marathi",
+      "name_en": "Samas & Prayog in Marathi",
+      "name_mr": "समास व प्रयोग"
+    },
+    {
+      "id": "top_reasoning",
+      "subject_id": "sub_csat",
+      "name_en": "Coding-Decoding & Number Series",
+      "name_mr": "सांकेतिक भाषा व संख्या मालिका"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_001",
+      "exam_id": "exam_rajyaseva",
+      "subject_id": "sub_polity",
+      "topic_id": "top_const_amend",
+      "difficulty": "medium",
+      "question_en": "Under which Constitutional Amendment Act was the Panchayati Raj system granted constitutional status in India?",
+      "question_mr": "भारतात कोणत्या घटनादुरुस्ती कायद्यान्वये पंचायत राज व्यवस्थेला घटनात्मक दर्जा प्रदान करण्यात आला?",
+      "explanation_en": "The 73rd Constitutional Amendment Act, 1992 added Part IX and the 11th Schedule to the Indian Constitution, granting constitutional status to Panchayati Raj institutions.",
+      "explanation_mr": "७३ व्या घटनादुरुस्ती कायदा, १९९२ अन्वये भारतीय संविधानात भाग ९ आणि ११ वी अनुसूची समाविष्ट करून पंचायत राज संस्थांना घटनात्मक दर्जा देण्यात आला.",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "is_active": true,
+      "options": [
+        {
+          "id": "opt_001_1",
+          "question_id": "q_001",
+          "option_key": "1",
+          "text_en": "71st Amendment Act, 1992",
+          "text_mr": "७१ वी घटनादुरुस्ती कायदा, १९९२",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "id": "opt_001_2",
+          "question_id": "q_001",
+          "option_key": "2",
+          "text_en": "73rd Amendment Act, 1992",
+          "text_mr": "७३ वी घटनादुरुस्ती कायदा, १९९२",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "id": "opt_001_3",
+          "question_id": "q_001",
+          "option_key": "3",
+          "text_en": "74th Amendment Act, 1992",
+          "text_mr": "७४ वी घटनादुरुस्ती कायदा, १९९२",
+          "is_correct": false,
+          "sort_order": 3
+        },
+        {
+          "id": "opt_001_4",
+          "question_id": "q_001",
+          "option_key": "4",
+          "text_en": "86th Amendment Act, 2002",
+          "text_mr": "८६ वी घटनादुरुस्ती कायदा, २००२",
+          "is_correct": false,
+          "sort_order": 4
+        }
+      ]
+    },
+    {
+      "id": "q_002",
+      "exam_id": "exam_rajyaseva",
+      "subject_id": "sub_geography",
+      "topic_id": "top_mh_rivers",
+      "difficulty": "medium",
+      "question_en": "Which river basin covers the largest geographic area in the state of Maharashtra?",
+      "question_mr": "महाराष्ट्राच्या एकूण भौगोलिक क्षेत्रापैकी सर्वाधिक क्षेत्र कोणत्या नदीच्या खोऱ्याने व्यापले आहे?",
+      "explanation_en": "The Godavari river basin is the largest in Maharashtra, occupying approximately 49% of the state’s total land area.",
+      "explanation_mr": "गोदावरी नदी खोरे महाराष्ट्रातील सर्वात मोठे नदी खोरे असून ते राज्याच्या एकूण क्षेत्रफळाच्या सुमारे ४९% क्षेत्र व्यापते.",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "is_active": true,
+      "options": [
+        {
+          "id": "opt_002_1",
+          "question_id": "q_002",
+          "option_key": "1",
+          "text_en": "Krishna River Basin",
+          "text_mr": "कृष्णा नदी खोरे",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "id": "opt_002_2",
+          "question_id": "q_002",
+          "option_key": "2",
+          "text_en": "Tapi-Purna Basin",
+          "text_mr": "तापी-पूर्णा खोरे",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "id": "opt_002_3",
+          "question_id": "q_002",
+          "option_key": "3",
+          "text_en": "Godavari River Basin",
+          "text_mr": "गोदावरी नदी खोरे",
+          "is_correct": true,
+          "sort_order": 3
+        },
+        {
+          "id": "opt_002_4",
+          "question_id": "q_002",
+          "option_key": "4",
+          "text_en": "Bhima River Basin",
+          "text_mr": "भीमा नदी खोरे",
+          "is_correct": false,
+          "sort_order": 4
+        }
+      ]
+    },
+    {
+      "id": "q_003",
+      "exam_id": "exam_rajyaseva",
+      "subject_id": "sub_history",
+      "topic_id": "top_mh_reformers",
+      "difficulty": "easy",
+      "question_en": "In which year did Mahatma Jyotirao Phule establish the Satyashodhak Samaj in Pune?",
+      "question_mr": "महात्मा ज्योतिराव फुले यांनी पुण्यामध्ये सत्यशोधक समाजाची स्थापना कोणत्या वर्षी केली?",
+      "explanation_en": "Mahatma Jyotirao Phule founded the Satyashodhak Samaj on 24 September 1873 to promote social equality, education for the oppressed, and women’s emancipation.",
+      "explanation_mr": "महात्मा ज्योतिराव फुले यांनी २४ सप्टेंबर १८७३ रोजी बहुजन समाजाच्या उद्धारासाठी व सामाजिक समतेसाठी सत्यशोधक समाजाची स्थापना केली.",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "is_active": true,
+      "options": [
+        {
+          "id": "opt_003_1",
+          "question_id": "q_003",
+          "option_key": "1",
+          "text_en": "1848",
+          "text_mr": "१८४८",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "id": "opt_003_2",
+          "question_id": "q_003",
+          "option_key": "2",
+          "text_en": "1873",
+          "text_mr": "१८७३",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "id": "opt_003_3",
+          "question_id": "q_003",
+          "option_key": "3",
+          "text_en": "1885",
+          "text_mr": "१८८५",
+          "is_correct": false,
+          "sort_order": 3
+        },
+        {
+          "id": "opt_003_4",
+          "question_id": "q_003",
+          "option_key": "4",
+          "text_en": "1902",
+          "text_mr": "१९०२",
+          "is_correct": false,
+          "sort_order": 4
+        }
+      ]
+    },
+    {
+      "id": "q_004",
+      "exam_id": "exam_combine_b",
+      "subject_id": "sub_marathi",
+      "topic_id": "top_samas",
+      "difficulty": "easy",
+      "question_en": "Identify the type of Samas (Compound Word) in the word \"यथाशक्ती\" (Yathashakti):",
+      "question_mr": "\"यथाशक्ती\" या सामासिक शब्दाचा समास कोणता ते ओळखा:",
+      "explanation_en": "In \"यथाशक्ती\", the first word \"यथा\" is an indeclinable Sanskrit prefix (Avyaya) denoting \"according to\". Therefore, it is an Avyayibhava Samas.",
+      "explanation_mr": "\"यथाशक्ती\" या शब्दात पहिले पद \"यथा\" हे अव्यय असून ते महत्त्वाचे आहे, म्हणून हा अव्ययीभाव समास आहे (शक्तीप्रमाणे).",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "is_active": true,
+      "options": [
+        {
+          "id": "opt_004_1",
+          "question_id": "q_004",
+          "option_key": "1",
+          "text_en": "Tatpurush Samas",
+          "text_mr": "तत्पुरुष समास",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "id": "opt_004_2",
+          "question_id": "q_004",
+          "option_key": "2",
+          "text_en": "Dwandwa Samas",
+          "text_mr": "द्वंद्व समास",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "id": "opt_004_3",
+          "question_id": "q_004",
+          "option_key": "3",
+          "text_en": "Avyayibhava Samas",
+          "text_mr": "अव्ययीभाव समास",
+          "is_correct": true,
+          "sort_order": 3
+        },
+        {
+          "id": "opt_004_4",
+          "question_id": "q_004",
+          "option_key": "4",
+          "text_en": "Bahuvrihi Samas",
+          "text_mr": "बहुव्रीही समास",
+          "is_correct": false,
+          "sort_order": 4
+        }
+      ]
+    },
+    {
+      "id": "q_005",
+      "exam_id": "exam_rajyaseva",
+      "subject_id": "sub_csat",
+      "topic_id": "top_reasoning",
+      "difficulty": "medium",
+      "question_en": "Find the missing number in the following series: 3, 7, 15, 31, 63, ?",
+      "question_mr": "खालील संख्या मालिकेत प्रश्नचिन्हाच्या (?) जागी येणारी संख्या शोधा: ३, ७, १५, ३१, ६३, ?",
+      "explanation_en": "Pattern is: (Previous number * 2) + 1. (3*2+1=7), (7*2+1=15), (15*2+1=31), (31*2+1=63), (63*2+1 = 127).",
+      "explanation_mr": "नियम: मागील संख्येची दुप्पट अधिक १. ३×२+१=७, ७×२+१=१५, १५×२+१=३१, ३१×२+१=६३, ६३×२+१ = १२७.",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "is_active": true,
+      "options": [
+        {
+          "id": "opt_005_1",
+          "question_id": "q_005",
+          "option_key": "1",
+          "text_en": "124",
+          "text_mr": "१२४",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "id": "opt_005_2",
+          "question_id": "q_005",
+          "option_key": "2",
+          "text_en": "127",
+          "text_mr": "१२७",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "id": "opt_005_3",
+          "question_id": "q_005",
+          "option_key": "3",
+          "text_en": "129",
+          "text_mr": "१२९",
+          "is_correct": false,
+          "sort_order": 3
+        },
+        {
+          "id": "opt_005_4",
+          "question_id": "q_005",
+          "option_key": "4",
+          "text_en": "135",
+          "text_mr": "१३५",
+          "is_correct": false,
+          "sort_order": 4
+        }
+      ]
+    },
+    {
+      "id": "q_006",
+      "exam_id": "exam_rajyaseva",
+      "subject_id": "sub_economy",
+      "topic_id": "top_const_amend",
+      "difficulty": "hard",
+      "question_en": "Which Committee recommended the introduction of the Goods and Services Tax (GST) in India?",
+      "question_mr": "भारतात वस्तू व सेवा कर (GST) लागू करण्याची शिफारस कोणत्या कार्यगटाने / समितीने केली होती?",
+      "explanation_en": "The Kelkar Task Force on Implementation of the FRBM Act (2004) strongly advocated for a comprehensive national Goods and Services Tax (GST).",
+      "explanation_mr": "विजय केळकर कार्यगटाने (Kelkar Task Force, 2004) भारतात एकात्मिक वस्तू व सेवा कर (GST) लागू करण्याची प्रमुख शिफारस केली होती.",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "is_active": true,
+      "options": [
+        {
+          "id": "opt_006_1",
+          "question_id": "q_006",
+          "option_key": "1",
+          "text_en": "Chelliah Committee",
+          "text_mr": "राजा चेलय्या समिती",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "id": "opt_006_2",
+          "question_id": "q_006",
+          "option_key": "2",
+          "text_en": "Kelkar Task Force",
+          "text_mr": "विजय केळकर कार्यगट",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "id": "opt_006_3",
+          "question_id": "q_006",
+          "option_key": "3",
+          "text_en": "Rangarajan Committee",
+          "text_mr": "सी. रंगराजन समिती",
+          "is_correct": false,
+          "sort_order": 3
+        },
+        {
+          "id": "opt_006_4",
+          "question_id": "q_006",
+          "option_key": "4",
+          "text_en": "Tarapore Committee",
+          "text_mr": "एस. एस. तारापोर समिती",
+          "is_correct": false,
+          "sort_order": 4
+        }
+      ]
+    },
+    {
+      "id": "q_007",
+      "exam_id": "exam_rajyaseva",
+      "subject_id": "sub_science",
+      "topic_id": "top_const_amend",
+      "difficulty": "medium",
+      "question_en": "Which gland in the human body is known as the \"Master Gland\"?",
+      "question_mr": "मानवी शरीरातील कोणत्या ग्रंथीला \"मास्टर ग्रंथी\" (मुख्य ग्रंथी) म्हणून ओळखले जाते?",
+      "explanation_en": "The pituitary gland produces hormones that control many functions of other endocrine glands, hence termed the master gland.",
+      "explanation_mr": "पियुषिका ग्रंथी (Pituitary Gland) इतर सर्व आंतरस्रावी ग्रंथींच्या कार्याचे नियंत्रण करते, म्हणून तिला मास्टर ग्रंथी म्हणतात.",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "is_active": true,
+      "options": [
+        {
+          "id": "opt_007_1",
+          "question_id": "q_007",
+          "option_key": "1",
+          "text_en": "Thyroid Gland",
+          "text_mr": "थायरॉईड ग्रंथी",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "id": "opt_007_2",
+          "question_id": "q_007",
+          "option_key": "2",
+          "text_en": "Pituitary Gland",
+          "text_mr": "पियुषिका ग्रंथी (Pituitary)",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "id": "opt_007_3",
+          "question_id": "q_007",
+          "option_key": "3",
+          "text_en": "Adrenal Gland",
+          "text_mr": "अधिवृक्क ग्रंथी (Adrenal)",
+          "is_correct": false,
+          "sort_order": 3
+        },
+        {
+          "id": "opt_007_4",
+          "question_id": "q_007",
+          "option_key": "4",
+          "text_en": "Pancreas",
+          "text_mr": "स्वादुपिंड (Pancreas)",
+          "is_correct": false,
+          "sort_order": 4
+        }
+      ]
+    },
+    {
+      "id": "q_008",
+      "exam_id": "exam_combine_b",
+      "subject_id": "sub_polity",
+      "topic_id": "top_const_amend",
+      "difficulty": "hard",
+      "question_en": "According to Article 213 of the Constitution of India, who has the power to promulgate Ordinances during the recess of the State Legislature?",
+      "question_mr": "भारतीय संविधानाच्या कलम २१३ अन्वये, राज्य विधिमंडळाचे अधिवेशन चालू नसताना वटहुकूम काढण्याचा अधिकार कोणास आहे?",
+      "explanation_en": "Article 213 empowers the Governor of a state to promulgate ordinances during the recess of the state legislature if circumstances require immediate action.",
+      "explanation_mr": "कलम २१३ अन्वये राज्यपालांना विधिमंडळाचे अधिवेशन चालू नसताना तातडीच्या परिस्थितीत वटहुकूम काढण्याचे अधिकार दिलेले आहेत.",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "is_active": true,
+      "options": [
+        {
+          "id": "opt_008_1",
+          "question_id": "q_008",
+          "option_key": "1",
+          "text_en": "Chief Minister",
+          "text_mr": "मुख्यमंत्री",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "id": "opt_008_2",
+          "question_id": "q_008",
+          "option_key": "2",
+          "text_en": "Governor",
+          "text_mr": "राज्यपाल",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "id": "opt_008_3",
+          "question_id": "q_008",
+          "option_key": "3",
+          "text_en": "Chief Justice of High Court",
+          "text_mr": "उच्च न्यायालयाचे मुख्य न्यायाधीश",
+          "is_correct": false,
+          "sort_order": 3
+        },
+        {
+          "id": "opt_008_4",
+          "question_id": "q_008",
+          "option_key": "4",
+          "text_en": "Speaker of Legislative Assembly",
+          "text_mr": "विधानसभा अध्यक्ष",
+          "is_correct": false,
+          "sort_order": 4
+        }
+      ]
+    },
+    {
+      "exam_id": "exam_rajyaseva",
+      "subject_id": "sub_polity",
+      "topic_id": "top_const_amend",
+      "difficulty": "medium",
+      "question_en": "Who is narendra modi",
+      "question_mr": "Who is narendra modi",
+      "explanation_en": "PM OF INDIA",
+      "explanation_mr": "PM OF INDIA",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "is_active": true,
+      "options": [
+        {
+          "option_key": "1",
+          "text_en": "PM",
+          "text_mr": "PM",
+          "is_correct": true,
+          "sort_order": 1,
+          "id": "opt_f3a0c429",
+          "question_id": "q_e9b8e49e"
+        },
+        {
+          "option_key": "2",
+          "text_en": "DM",
+          "text_mr": "DM",
+          "is_correct": false,
+          "sort_order": 2,
+          "id": "opt_ab13ada3",
+          "question_id": "q_e9b8e49e"
+        },
+        {
+          "option_key": "3",
+          "text_en": "AM",
+          "text_mr": "AM",
+          "is_correct": false,
+          "sort_order": 3,
+          "id": "opt_edf466b7",
+          "question_id": "q_e9b8e49e"
+        },
+        {
+          "option_key": "4",
+          "text_en": "EM",
+          "text_mr": "EM",
+          "is_correct": false,
+          "sort_order": 4,
+          "id": "opt_0cc1cd17",
+          "question_id": "q_e9b8e49e"
+        }
+      ],
+      "id": "q_e9b8e49e",
+      "created_at": "2026-11-12T08:50:28.739Z"
+    }
+  ],
+  "tests": [
+    {
+      "id": "test_mpsc_gs1_full",
+      "exam_id": "exam_rajyaseva",
+      "title_en": "MPSC Rajyaseva Prelims GS Paper 1 Mock #1",
+      "title_mr": "राज्यसेवा पूर्व परीक्षा पेपर-१ संपूर्ण सराव टेस्ट १",
+      "description_en": "Comprehensive full-length mock test based on latest MPSC syllabus with negative marking (1/4th penalty).",
+      "description_mr": "एमपीएससी च्या ताज्या अभ्यासक्रमावर आधारित संपूर्ण सराव चाचणी. १/४ निगेटिव्ह मार्किंगसह.",
+      "duration_minutes": 60,
+      "total_marks": 100,
+      "passing_marks": 40,
+      "negative_mark_factor": 0.25,
+      "price": 199,
+      "is_published": true,
+      "created_at": "2026-11-12T08:27:16.964Z"
+    },
+    {
+      "id": "test_mpsc_combine_b_mock",
+      "exam_id": "exam_combine_b",
+      "title_en": "MPSC Combine Group B Prelims Mock Test #1",
+      "title_mr": "संयुक्त गट-ब पूर्व परीक्षा विशेष सराव टेस्ट #१",
+      "description_en": "Focused on PSI, STI, ASO syllabus with Maharashtra Geography, History, and Polity coverage.",
+      "description_mr": "पीएसआय, एसटीआय, एएसओ परीक्षेसाठी भूगोल, इतिहास, राज्यव्यवस्था विषयांवर आधारित टेस्ट.",
+      "duration_minutes": 60,
+      "total_marks": 100,
+      "passing_marks": 42,
+      "negative_mark_factor": 0.25,
+      "price": 149,
+      "is_published": true,
+      "created_at": "2026-11-12T08:27:16.965Z"
+    },
+    {
+      "id": "test_marathi_free",
+      "exam_id": "exam_combine_b",
+      "title_en": "MPSC Marathi Vyakaran Diagnostic Test (Free)",
+      "title_mr": "मराठी व्याकरण विनामूल्य सराव चाचणी (Free Starter)",
+      "description_en": "Free starter test covering Samas, Sandhi, Prayog, and vocabulary for MPSC aspirants.",
+      "description_mr": "सर्व विद्यार्थ्यांसाठी मोफत सराव चाचणी - समास, प्रयोग, संधी आणि शब्दसंग्रह.",
+      "duration_minutes": 30,
+      "total_marks": 50,
+      "passing_marks": 20,
+      "negative_mark_factor": 0.25,
+      "price": 0,
+      "is_published": true,
+      "created_at": "2026-11-12T08:27:16.965Z"
+    },
+    {
+      "id": "test_csat_speed",
+      "exam_id": "exam_rajyaseva",
+      "title_en": "MPSC CSAT & Mental Ability Speed Booster",
+      "title_mr": "सीएसएटी बुद्धिमत्ता व अंकगणित स्पीड बुस्टर टेस्ट",
+      "description_en": "Targeted reasoning and arithmetic questions to boost speed and score high in Paper 2.",
+      "description_mr": "पेपर-२ मधील गती व अचूकता वाढवण्यासाठी विशेष तर्कक्षमता व अंकगणित टेस्ट.",
+      "duration_minutes": 45,
+      "total_marks": 50,
+      "passing_marks": 25,
+      "negative_mark_factor": 0.25,
+      "price": 99,
+      "is_published": true,
+      "created_at": "2026-11-12T08:27:16.965Z"
+    },
+    {
+      "exam_id": "exam_combine_c",
+      "title_en": "MPSC Combine Group C",
+      "title_mr": "MPSC Combine Group C",
+      "description_en": "",
+      "description_mr": "",
+      "duration_minutes": 60,
+      "total_marks": 100,
+      "passing_marks": 40,
+      "negative_mark_factor": 0.25,
+      "price": 299,
+      "is_published": true,
+      "id": "test_f907e2ef",
+      "created_at": "2026-11-12T08:48:14.666Z"
+    },
+    {
+      "exam_id": "exam_combine_c",
+      "title_en": "MPSC Combine Group C",
+      "title_mr": "MPSC Combine Group C",
+      "description_en": "",
+      "description_mr": "",
+      "duration_minutes": 60,
+      "total_marks": 100,
+      "passing_marks": 40,
+      "negative_mark_factor": 0.25,
+      "price": 299,
+      "is_published": true,
+      "id": "test_1f614c3a",
+      "created_at": "2026-11-12T08:48:16.166Z"
+    },
+    {
+      "exam_id": "exam_rajyaseva",
+      "title_en": "RAJYA",
+      "title_mr": "RAJY",
+      "description_en": "",
+      "description_mr": "",
+      "duration_minutes": 60,
+      "total_marks": 100,
+      "passing_marks": 40,
+      "negative_mark_factor": 0.25,
+      "price": 199,
+      "is_published": true,
+      "id": "test_861c0325",
+      "created_at": "2026-11-12T08:51:37.538Z"
+    }
+  ],
+  "test_questions": [
+    {
+      "id": "tq_1",
+      "test_id": "test_mpsc_gs1_full",
+      "question_id": "q_001",
+      "question_order": 1
+    },
+    {
+      "id": "tq_2",
+      "test_id": "test_mpsc_gs1_full",
+      "question_id": "q_002",
+      "question_order": 2
+    },
+    {
+      "id": "tq_3",
+      "test_id": "test_mpsc_gs1_full",
+      "question_id": "q_003",
+      "question_order": 3
+    },
+    {
+      "id": "tq_4",
+      "test_id": "test_mpsc_gs1_full",
+      "question_id": "q_005",
+      "question_order": 4
+    },
+    {
+      "id": "tq_5",
+      "test_id": "test_mpsc_gs1_full",
+      "question_id": "q_006",
+      "question_order": 5
+    },
+    {
+      "id": "tq_6",
+      "test_id": "test_mpsc_gs1_full",
+      "question_id": "q_007",
+      "question_order": 6
+    },
+    {
+      "id": "tq_7",
+      "test_id": "test_mpsc_combine_b_mock",
+      "question_id": "q_001",
+      "question_order": 1
+    },
+    {
+      "id": "tq_8",
+      "test_id": "test_mpsc_combine_b_mock",
+      "question_id": "q_002",
+      "question_order": 2
+    },
+    {
+      "id": "tq_9",
+      "test_id": "test_mpsc_combine_b_mock",
+      "question_id": "q_004",
+      "question_order": 3
+    },
+    {
+      "id": "tq_10",
+      "test_id": "test_mpsc_combine_b_mock",
+      "question_id": "q_008",
+      "question_order": 4
+    },
+    {
+      "id": "tq_11",
+      "test_id": "test_marathi_free",
+      "question_id": "q_004",
+      "question_order": 1
+    },
+    {
+      "id": "tq_12",
+      "test_id": "test_marathi_free",
+      "question_id": "q_003",
+      "question_order": 2
+    },
+    {
+      "id": "tq_13",
+      "test_id": "test_csat_speed",
+      "question_id": "q_005",
+      "question_order": 1
+    },
+    {
+      "id": "tq_2b4a9a50",
+      "test_id": "test_f907e2ef",
+      "question_id": "q_001",
+      "question_order": 1
+    },
+    {
+      "id": "tq_40913d09",
+      "test_id": "test_f907e2ef",
+      "question_id": "q_002",
+      "question_order": 2
+    },
+    {
+      "id": "tq_4e06d27d",
+      "test_id": "test_f907e2ef",
+      "question_id": "q_003",
+      "question_order": 3
+    },
+    {
+      "id": "tq_7720fb28",
+      "test_id": "test_f907e2ef",
+      "question_id": "q_004",
+      "question_order": 4
+    },
+    {
+      "id": "tq_f38f4633",
+      "test_id": "test_f907e2ef",
+      "question_id": "q_005",
+      "question_order": 5
+    },
+    {
+      "id": "tq_a8d36871",
+      "test_id": "test_f907e2ef",
+      "question_id": "q_007",
+      "question_order": 6
+    },
+    {
+      "id": "tq_5b063979",
+      "test_id": "test_f907e2ef",
+      "question_id": "q_006",
+      "question_order": 7
+    },
+    {
+      "id": "tq_5827328d",
+      "test_id": "test_f907e2ef",
+      "question_id": "q_008",
+      "question_order": 8
+    },
+    {
+      "id": "tq_267d2ec3",
+      "test_id": "test_1f614c3a",
+      "question_id": "q_001",
+      "question_order": 1
+    },
+    {
+      "id": "tq_bcd0508c",
+      "test_id": "test_1f614c3a",
+      "question_id": "q_002",
+      "question_order": 2
+    },
+    {
+      "id": "tq_a83536e3",
+      "test_id": "test_1f614c3a",
+      "question_id": "q_003",
+      "question_order": 3
+    },
+    {
+      "id": "tq_65cfadaf",
+      "test_id": "test_1f614c3a",
+      "question_id": "q_004",
+      "question_order": 4
+    },
+    {
+      "id": "tq_fc3905f7",
+      "test_id": "test_1f614c3a",
+      "question_id": "q_005",
+      "question_order": 5
+    },
+    {
+      "id": "tq_23761b1e",
+      "test_id": "test_1f614c3a",
+      "question_id": "q_007",
+      "question_order": 6
+    },
+    {
+      "id": "tq_ef5830e9",
+      "test_id": "test_1f614c3a",
+      "question_id": "q_006",
+      "question_order": 7
+    },
+    {
+      "id": "tq_afba995b",
+      "test_id": "test_1f614c3a",
+      "question_id": "q_008",
+      "question_order": 8
+    },
+    {
+      "id": "tq_d803b6de",
+      "test_id": "test_861c0325",
+      "question_id": "q_e9b8e49e",
+      "question_order": 1
+    }
+  ],
+  "promo_codes": [
+    {
+      "id": "promo_mpsc2026",
+      "code": "MPSC2026",
+      "discount_type": "percentage",
+      "discount_value": 20,
+      "min_order_amount": 100,
+      "max_discount_amount": 50,
+      "usage_limit": 500,
+      "times_used": 14,
+      "valid_from": "2025-01-01T00:00:00.000Z",
+      "valid_until": "2026-12-31T23:59:59.000Z",
+      "is_active": true,
+      "eligible_test_ids": []
+    },
+    {
+      "id": "promo_topper50",
+      "code": "TOPPER50",
+      "discount_type": "percentage",
+      "discount_value": 50,
+      "min_order_amount": 150,
+      "max_discount_amount": 100,
+      "usage_limit": 100,
+      "times_used": 3,
+      "valid_from": "2025-01-01T00:00:00.000Z",
+      "valid_until": "2026-12-31T23:59:59.000Z",
+      "is_active": true,
+      "eligible_test_ids": []
+    },
+    {
+      "id": "promo_save50",
+      "code": "SAVE50",
+      "discount_type": "fixed",
+      "discount_value": 50,
+      "min_order_amount": 149,
+      "max_discount_amount": 50,
+      "usage_limit": 200,
+      "times_used": 8,
+      "valid_from": "2025-01-01T00:00:00.000Z",
+      "valid_until": "2026-12-31T23:59:59.000Z",
+      "is_active": true,
+      "eligible_test_ids": []
+    },
+    {
+      "code": "AJ",
+      "discount_type": "percentage",
+      "discount_value": 100,
+      "min_order_amount": 100,
+      "max_discount_amount": 100,
+      "usage_limit": 100,
+      "valid_from": "2026-11-12T08:52:01.357Z",
+      "valid_until": "2026-12-31T00:00:00.000Z",
+      "is_active": true,
+      "eligible_test_ids": [],
+      "id": "promo_99dd862b",
+      "times_used": 1
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay_bfc88666",
+      "user_id": "u_student_001",
+      "user_name": "Aniket Deshmukh",
+      "user_email": "student@mpsc.gov",
+      "item_type": "package",
+      "package_id": "pkg_group_c_complete",
+      "package_name": "MPSC Group C Complete Mock Test Package (35+ Tests)",
+      "razorpay_order_id": "order_pkg_mwdbynk1_90f635e8",
+      "amount": 299,
+      "original_amount": 299,
+      "discount_amount": 0,
+      "currency": "INR",
+      "status": "paid",
+      "created_at": "2026-11-12T09:13:17.761Z",
+      "razorpay_payment_id": "pay_order_pkg_mwdbynk1_90f635e8",
+      "razorpay_signature": "mock_sig_order_pkg_mwdbynk1_90f635e8",
+      "verified_at": "2026-11-12T09:13:17.783Z"
+    },
+    {
+      "id": "pay_479f51aa",
+      "user_id": "u_student_001",
+      "user_name": "Aniket Deshmukh",
+      "user_email": "student@mpsc.gov",
+      "item_type": "package",
+      "package_id": "pkg_group_c_complete",
+      "package_name": "MPSC Group C Complete Mock Test Package (35+ Tests)",
+      "razorpay_order_id": "order_pkg_mwdbyh0h_eb5d4873",
+      "amount": 299,
+      "original_amount": 299,
+      "discount_amount": 0,
+      "currency": "INR",
+      "status": "failed",
+      "created_at": "2026-11-12T09:13:09.281Z",
+      "razorpay_payment_id": "pay_sim_order_pkg_mwdbyh0h_eb5d4873",
+      "razorpay_signature": "sig_simulated_success"
+    },
+    {
+      "id": "pay_25ea0275",
+      "user_id": "u_student_001",
+      "user_name": "Aniket Deshmukh",
+      "user_email": "student@mpsc.gov",
+      "item_type": "package",
+      "package_id": "pkg_group_c_complete",
+      "package_name": "MPSC Group C Complete Mock Test Package (35+ Tests)",
+      "razorpay_order_id": "order_pkg_mwdbxw7j_9a0ba380",
+      "amount": 299,
+      "original_amount": 299,
+      "discount_amount": 0,
+      "currency": "INR",
+      "status": "created",
+      "created_at": "2026-11-12T09:12:42.319Z"
+    },
+    {
+      "id": "pay_219428de",
+      "user_id": "u_student_001",
+      "user_name": "Aniket Deshmukh",
+      "user_email": "student@mpsc.gov",
+      "item_type": "package",
+      "package_id": "pkg_group_c_complete",
+      "package_name": "MPSC Group C Complete Mock Test Package (35+ Tests)",
+      "razorpay_order_id": "order_pkg_mwdbxr4b_aeb2fb5c",
+      "amount": 249,
+      "original_amount": 299,
+      "discount_amount": 50,
+      "currency": "INR",
+      "status": "created",
+      "promo_code": "MPSC2026",
+      "created_at": "2026-11-12T09:12:35.723Z"
+    },
+    {
+      "id": "pay_75f92d73",
+      "user_id": "u_student_001",
+      "user_name": "Aniket Deshmukh",
+      "user_email": "student@mpsc.gov",
+      "test_id": "test_861c0325",
+      "test_title": "RAJYA",
+      "razorpay_order_id": "order_mpsc_mwdb8cmp_9ba40d90",
+      "amount": 99,
+      "original_amount": 199,
+      "discount_amount": 100,
+      "currency": "INR",
+      "status": "paid",
+      "promo_code": "AJ",
+      "created_at": "2026-11-12T08:52:50.545Z",
+      "razorpay_payment_id": "pay_sim_mwdb8cro_4rsl",
+      "razorpay_signature": "72bda465dc123d631d3ed20c1689e6b32026a7bc2896a4b9b83b9904889af998",
+      "verified_at": "2026-11-12T08:52:50.724Z"
+    },
+    {
+      "id": "pay_d3ad6c86",
+      "user_id": "u_student_001",
+      "user_name": "Aniket Deshmukh",
+      "user_email": "student@mpsc.gov",
+      "test_id": "test_mpsc_gs1_full",
+      "test_title": "MPSC Rajyaseva Prelims GS Paper 1 Mock #1",
+      "razorpay_order_id": "order_mpsc_mwdandrb_5586c21a",
+      "amount": 199,
+      "original_amount": 199,
+      "discount_amount": 0,
+      "currency": "INR",
+      "status": "paid",
+      "created_at": "2026-11-12T08:36:32.231Z",
+      "razorpay_payment_id": "pay_sim_mwdandvy_4tvk",
+      "razorpay_signature": "d748553f0e91ecf47e1a41c83437471e5c1a2e24dba46f1e3e9e89db8a162367",
+      "verified_at": "2026-11-12T08:36:32.398Z"
+    },
+    {
+      "id": "pay_demo_001",
+      "user_id": "u_student_001",
+      "user_name": "Aniket Deshmukh",
+      "user_email": "student@mpsc.gov",
+      "test_id": "test_mpsc_gs1_full",
+      "test_title": "MPSC Rajyaseva Prelims GS Paper 1 Mock #1",
+      "razorpay_order_id": "order_demo_987654321",
+      "razorpay_payment_id": "pay_demo_123456789",
+      "razorpay_signature": "sig_verified_mock_hmac_sha256",
+      "amount": 159.2,
+      "original_amount": 199,
+      "discount_amount": 39.8,
+      "currency": "INR",
+      "status": "paid",
+      "promo_code": "MPSC2026",
+      "verified_at": "2026-11-11T08:27:16.965Z",
+      "created_at": "2026-11-11T08:27:16.965Z"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "enr_free_01",
+      "user_id": "u_student_001",
+      "test_id": "test_marathi_free",
+      "enrolled_at": "2026-11-12T08:27:16.965Z"
+    },
+    {
+      "id": "enr_04f4ef8f",
+      "user_id": "u_student_001",
+      "test_id": "test_mpsc_gs1_full",
+      "payment_id": "pay_d3ad6c86",
+      "enrolled_at": "2026-11-12T08:36:32.399Z"
+    },
+    {
+      "id": "enr_bb44e745",
+      "user_id": "u_student_001",
+      "test_id": "test_861c0325",
+      "payment_id": "pay_75f92d73",
+      "enrolled_at": "2026-11-12T08:52:50.724Z"
+    },
+    {
+      "id": "enr_46f75c56",
+      "user_id": "u_student_001",
+      "test_id": "test_mpsc_combine_b_mock",
+      "payment_id": "pay_bfc88666",
+      "package_id": "pkg_group_c_complete",
+      "enrolled_at": "2026-11-12T09:13:17.784Z"
+    },
+    {
+      "id": "enr_8a58aacb",
+      "user_id": "u_student_001",
+      "test_id": "test_csat_speed",
+      "payment_id": "pay_bfc88666",
+      "package_id": "pkg_group_c_complete",
+      "enrolled_at": "2026-11-12T09:13:17.785Z"
+    }
+  ],
+  "attempts": [
+    {
+      "id": "att_8f44fe95",
+      "user_id": "u_student_001",
+      "test_id": "test_marathi_free",
+      "test_title_en": "MPSC Marathi Vyakaran Diagnostic Test (Free)",
+      "test_title_mr": "मराठी व्याकरण विनामूल्य सराव चाचणी (Free Starter)",
+      "started_at": "2026-11-12T08:33:55.959Z",
+      "status": "evaluated",
+      "time_spent_seconds": 50,
+      "answers": {
+        "q_004": {
+          "question_id": "q_004",
+          "selected_option_id": "opt_004_1",
+          "is_marked_for_review": false
+        },
+        "q_003": {
+          "question_id": "q_003",
+          "selected_option_id": "opt_003_1",
+          "is_marked_for_review": false
+        }
+      },
+      "completed_at": "2026-11-12T08:34:47.164Z"
+    },
+    {
+      "id": "att_99274b4f",
+      "user_id": "u_student_001",
+      "test_id": "test_mpsc_gs1_full",
+      "test_title_en": "MPSC Rajyaseva Prelims GS Paper 1 Mock #1",
+      "test_title_mr": "राज्यसेवा पूर्व परीक्षा पेपर-१ संपूर्ण सराव टेस्ट १",
+      "started_at": "2026-11-12T08:36:32.717Z",
+      "status": "evaluated",
+      "time_spent_seconds": 395,
+      "answers": {
+        "q_001": {
+          "question_id": "q_001",
+          "selected_option_id": "opt_001_1",
+          "is_marked_for_review": false
+        }
+      },
+      "completed_at": "2026-11-12T08:43:11.571Z"
+    },
+    {
+      "id": "att_4b74f62c",
+      "user_id": "u_student_001",
+      "test_id": "test_861c0325",
+      "test_title_en": "RAJYA",
+      "test_title_mr": "RAJY",
+      "started_at": "2026-11-12T08:52:50.920Z",
+      "status": "evaluated",
+      "time_spent_seconds": 16,
+      "answers": {
+        "q_e9b8e49e": {
+          "question_id": "q_e9b8e49e",
+          "selected_option_id": "opt_f3a0c429",
+          "is_marked_for_review": false
+        }
+      },
+      "completed_at": "2026-11-12T08:53:07.598Z"
+    }
+  ],
+  "results": [
+    {
+      "id": "res_c2c47d8d",
+      "attempt_id": "att_8f44fe95",
+      "user_id": "u_student_001",
+      "test_id": "test_marathi_free",
+      "total_questions": 2,
+      "attempted_count": 2,
+      "correct_count": 0,
+      "incorrect_count": 2,
+      "unattempted_count": 0,
+      "positive_score": 0,
+      "negative_penalty": 1,
+      "net_score": 0,
+      "total_marks": 50,
+      "percentage": 0,
+      "rank": 1,
+      "total_participants": 1,
+      "percentile": 100,
+      "subject_analysis": [
+        {
+          "subject_id": "sub_marathi",
+          "subject_name_en": "Marathi Grammar & Language",
+          "subject_name_mr": "मराठी व्याकरण व भाषा",
+          "total_questions": 1,
+          "correct": 0,
+          "incorrect": 1,
+          "unattempted": 0,
+          "score": 0
+        },
+        {
+          "subject_id": "sub_history",
+          "subject_name_en": "sub_history",
+          "subject_name_mr": "sub_history",
+          "total_questions": 1,
+          "correct": 0,
+          "incorrect": 1,
+          "unattempted": 0,
+          "score": 0
+        }
+      ],
+      "evaluated_at": "2026-11-12T08:34:47.164Z"
+    },
+    {
+      "id": "res_bffbc5c4",
+      "attempt_id": "att_99274b4f",
+      "user_id": "u_student_001",
+      "test_id": "test_mpsc_gs1_full",
+      "total_questions": 6,
+      "attempted_count": 1,
+      "correct_count": 0,
+      "incorrect_count": 1,
+      "unattempted_count": 5,
+      "positive_score": 0,
+      "negative_penalty": 0.5,
+      "net_score": 0,
+      "total_marks": 100,
+      "percentage": 0,
+      "rank": 1,
+      "total_participants": 1,
+      "percentile": 100,
+      "subject_analysis": [
+        {
+          "subject_id": "sub_polity",
+          "subject_name_en": "Indian Polity & Governance",
+          "subject_name_mr": "भारतीय राज्यघटना व शासन",
+          "total_questions": 1,
+          "correct": 0,
+          "incorrect": 1,
+          "unattempted": 0,
+          "score": 0
+        },
+        {
+          "subject_id": "sub_geography",
+          "subject_name_en": "Geography of Maharashtra & India",
+          "subject_name_mr": "महाराष्ट्र व भारताचा भूगोल",
+          "total_questions": 1,
+          "correct": 0,
+          "incorrect": 0,
+          "unattempted": 1,
+          "score": 0
+        },
+        {
+          "subject_id": "sub_history",
+          "subject_name_en": "History of Modern India & Maharashtra",
+          "subject_name_mr": "आधुनिक भारताचा व महाराष्ट्राचा इतिहास",
+          "total_questions": 1,
+          "correct": 0,
+          "incorrect": 0,
+          "unattempted": 1,
+          "score": 0
+        },
+        {
+          "subject_id": "sub_csat",
+          "subject_name_en": "Mental Ability & Quantitative Aptitude",
+          "subject_name_mr": "बुद्धिमत्ता चाचणी व अंकगणित",
+          "total_questions": 1,
+          "correct": 0,
+          "incorrect": 0,
+          "unattempted": 1,
+          "score": 0
+        },
+        {
+          "subject_id": "sub_economy",
+          "subject_name_en": "Indian & Maharashtra Economy",
+          "subject_name_mr": "भारतीय व महाराष्ट्राची अर्थव्यवस्था",
+          "total_questions": 1,
+          "correct": 0,
+          "incorrect": 0,
+          "unattempted": 1,
+          "score": 0
+        },
+        {
+          "subject_id": "sub_science",
+          "subject_name_en": "General Science & Technology",
+          "subject_name_mr": "सामान्य विज्ञान व तंत्रज्ञान",
+          "total_questions": 1,
+          "correct": 0,
+          "incorrect": 0,
+          "unattempted": 1,
+          "score": 0
+        }
+      ],
+      "evaluated_at": "2026-11-12T08:43:11.571Z"
+    },
+    {
+      "id": "res_b3ec1b36",
+      "attempt_id": "att_4b74f62c",
+      "user_id": "u_student_001",
+      "test_id": "test_861c0325",
+      "total_questions": 1,
+      "attempted_count": 1,
+      "correct_count": 1,
+      "incorrect_count": 0,
+      "unattempted_count": 0,
+      "positive_score": 2,
+      "negative_penalty": 0,
+      "net_score": 2,
+      "total_marks": 100,
+      "percentage": 2,
+      "rank": 1,
+      "total_participants": 1,
+      "percentile": 100,
+      "subject_analysis": [
+        {
+          "subject_id": "sub_polity",
+          "subject_name_en": "Indian Polity & Governance",
+          "subject_name_mr": "भारतीय राज्यघटना व शासन",
+          "total_questions": 1,
+          "correct": 1,
+          "incorrect": 0,
+          "unattempted": 0,
+          "score": 2
+        }
+      ],
+      "evaluated_at": "2026-11-12T08:53:07.598Z"
+    }
+  ],
+  "packages": [
+    {
+      "id": "pkg_group_c_complete",
+      "name_en": "MPSC Group C Complete Mock Test Package (35+ Tests)",
+      "name_mr": "एमपीएससी गट-क सर्वसमावेशक टेस्ट सिरीज महा-पॅकेज (३५+ पेपर्स)",
+      "description_en": "Complete test series bundle for Clerk-Typist, Tax Assistant, and Excise Sub Inspector with comprehensive syllabus coverage, CSAT, and Marathi grammar.",
+      "description_mr": "लिपिक-टंकलेखक, कर सहाय्यक आणि दुय्यम निरीक्षक परीक्षांसाठी परिपूर्ण ३५+ सराव चाचण्यांचा संच. घटकनिहाय व संपूर्ण सराव पेपर्स.",
+      "image_url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=80",
+      "exam_id": "exam_combine_c",
+      "price": 499,
+      "discount_price": 299,
+      "validity_days": 180,
+      "is_published": true,
+      "created_at": "2026-11-12T09:12:12.501Z",
+      "updated_at": "2026-11-12T09:12:12.501Z"
+    },
+    {
+      "id": "pkg_amvi_mock",
+      "name_en": "MPSC AMVI & Technical Services Prelims Package",
+      "name_mr": "एमपीएससी सहाय्यक मोटार वाहन निरीक्षक (AMVI) विशेष पॅकेज",
+      "description_en": "Targeted mock test pack for Assistant Motor Vehicle Inspector Prelims & Maharashtra Engineering / Technical Services examinations.",
+      "description_mr": "सहाय्यक मोटार वाहन निरीक्षक (AMVI) आणि महाराष्ट्र तांत्रिक सेवा पूर्व परीक्षेसाठी विशेष सराव चाचण्यांचा संच.",
+      "image_url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=600&auto=format&fit=crop&q=80",
+      "exam_id": "exam_combine_b",
+      "price": 599,
+      "discount_price": 349,
+      "validity_days": 365,
+      "is_published": true,
+      "created_at": "2026-11-12T09:12:12.501Z",
+      "updated_at": "2026-11-12T09:12:12.501Z"
+    },
+    {
+      "id": "pkg_rajyaseva_master",
+      "name_en": "MPSC Rajyaseva Prelims Master Pack (GS + CSAT)",
+      "name_mr": "महाराष्ट्र राज्यसेवा पूर्व परीक्षा महा-सराव पॅक (GS-1 + CSAT)",
+      "description_en": "All-inclusive State Services prelims test package with full length GS Paper 1, CSAT Paper 2, and Subject boosters with in-depth analytics.",
+      "description_mr": "राज्यसेवा पूर्व परीक्षेसाठी सामान्य अध्ययन पेपर-१ आणि बुद्धिमत्ता चाचणी पेपर-२ च्या संपूर्ण टेस्ट्सचे महा-पॅकेज. अचूक निगेटिव्ह मार्किंग व स्पष्टीकरणांसह.",
+      "image_url": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&auto=format&fit=crop&q=80",
+      "exam_id": "exam_rajyaseva",
+      "price": 799,
+      "discount_price": 399,
+      "validity_days": 365,
+      "is_published": true,
+      "created_at": "2026-11-12T09:12:12.501Z",
+      "updated_at": "2026-11-12T09:12:12.501Z"
+    }
+  ],
+  "package_tests": [
+    {
+      "id": "pt_1",
+      "package_id": "pkg_group_c_complete",
+      "test_id": "test_mpsc_combine_b_mock",
+      "sort_order": 1
+    },
+    {
+      "id": "pt_2",
+      "package_id": "pkg_group_c_complete",
+      "test_id": "test_marathi_free",
+      "sort_order": 2
+    },
+    {
+      "id": "pt_3",
+      "package_id": "pkg_group_c_complete",
+      "test_id": "test_csat_speed",
+      "sort_order": 3
+    },
+    {
+      "id": "pt_4",
+      "package_id": "pkg_amvi_mock",
+      "test_id": "test_mpsc_gs1_full",
+      "sort_order": 1
+    },
+    {
+      "id": "pt_5",
+      "package_id": "pkg_amvi_mock",
+      "test_id": "test_csat_speed",
+      "sort_order": 2
+    },
+    {
+      "id": "pt_6",
+      "package_id": "pkg_amvi_mock",
+      "test_id": "test_mpsc_combine_b_mock",
+      "sort_order": 3
+    },
+    {
+      "id": "pt_7",
+      "package_id": "pkg_rajyaseva_master",
+      "test_id": "test_mpsc_gs1_full",
+      "sort_order": 1
+    },
+    {
+      "id": "pt_8",
+      "package_id": "pkg_rajyaseva_master",
+      "test_id": "test_csat_speed",
+      "sort_order": 2
+    },
+    {
+      "id": "pt_9",
+      "package_id": "pkg_rajyaseva_master",
+      "test_id": "test_mpsc_combine_b_mock",
+      "sort_order": 3
+    },
+    {
+      "id": "pt_10",
+      "package_id": "pkg_rajyaseva_master",
+      "test_id": "test_marathi_free",
+      "sort_order": 4
+    }
+  ],
+  "package_enrollments": [
+    {
+      "id": "pe_e0dbe743",
+      "user_id": "u_student_001",
+      "package_id": "pkg_group_c_complete",
+      "package_name_en": "MPSC Group C Complete Mock Test Package (35+ Tests)",
+      "package_name_mr": "एमपीएससी गट-क सर्वसमावेशक टेस्ट सिरीज महा-पॅकेज (३५+ पेपर्स)",
+      "payment_id": "pay_bfc88666",
+      "enrolled_at": "2026-11-12T09:13:17.784Z",
+      "expires_at": "2027-05-11T09:13:17.784Z"
+    }
+  ]
+}

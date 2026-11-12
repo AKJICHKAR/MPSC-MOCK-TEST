@@ -1,0 +1,6 @@
+{
+  "name": "MPSC Sarathi Mock Test Platform",
+  "description": "Maharashtra MPSC mock test web platform with bilingual English/Marathi tests, syllabus mapping, Razorpay payment verification, promo codes, and comprehensive admin & student analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
